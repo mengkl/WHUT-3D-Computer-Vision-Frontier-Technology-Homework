@@ -1,6 +1,6 @@
 clear,close,clc;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Origin=imread("A.jpg");                    %读取图像
+Origin=imread('');                  %读取图像
 sensitivity = 0.55;                 %敏感度
 Eccentricity = [0.985,1];           %偏心率
 character = 30;                     %条形码条数，如果出现了条形码上下的数字，请调小该参数
